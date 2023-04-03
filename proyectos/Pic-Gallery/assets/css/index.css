@@ -1,0 +1,118 @@
+*{
+    border-radius: 8px;
+    margin: 0;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background: #0F2027; 
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:(12, 1fr);
+    grid-template-areas: 
+    "title title2 "
+    "button button2";
+    gap: 10px 20px;
+}
+
+header{
+    display: grid;
+    grid-column: 1/-1;
+}
+
+.logo{
+    text-align: center;
+    color: white;
+}
+
+span {
+    background: transparent;
+    color: rgb(231, 31, 31);
+}
+
+.npagina{
+    font-size: 20px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    grid-column: 1/-1;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+    font-size: x-large;
+    justify-content: space-between;
+}
+.nav_box {
+    display: flex;
+    background: #232526; 
+    background: -webkit-linear-gradient(to right, #414345, #232526); 
+    background: linear-gradient(to right, #414345, #232526); 
+    border: 1px solid white;
+    padding: 8px;
+    color: white;
+}
+
+.nav_box:hover{
+    color: rgb(231, 31, 31);
+}
+
+.sidebar{
+    color: white;
+    padding: 10px;
+    display: grid;
+}
+aside{
+    display: grid;
+    position: relative;
+    grid-row: 3/12;
+    place-content: center;
+    padding: 10px;
+    border:  1px solid white;
+    width: 300;
+    height: 1021px;
+    list-style: none;
+    max-width: 1820px;
+    min-width: 5px;
+    max-height: 1500px;
+    min-height: 5px;
+}
+
+.section{
+    padding: 10px;
+}
+
+section {
+    display: grid;
+    grid-row: 3/12;
+    place-content: center;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.picture{
+    display: grid;
+    place-content: center;
+    width: 75vw;
+    max-width: 1820px;
+    min-width: 5px;
+    margin: auto;
+}
+
+img{
+    width: 75%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+
+footer {
+    display: flex;
+    grid-column: 1/-1;
+    border: 1px solid white;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}

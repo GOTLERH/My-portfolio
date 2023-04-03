@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+fieldset{
+    border-color: white;
+    border: 2px solid white
+}
+.filler{
+    display: flex;
+    justify-content: center;
+}
+.fill_text{
+    font-size: larger;
+}
+td{
+   padding: 10px; 
+}
+.botones{
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+.boton{
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid white;
+    color: black;
+}
+.boton:hover{
+    color: rgb(185, 182, 182);
+}
+a:link, a:visited {
+    text-decoration: none;
+}

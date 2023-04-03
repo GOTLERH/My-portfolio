@@ -1,0 +1,37 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  body{
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab); 
+    background: linear-gradient(to right, #eef2f3, #8e9eab); 
+}
+.button-height{
+height: 100px;
+}
+.form-width{
+width: 500px;
+}
+input{
+width: 90%;
+border-color: black;
+border: 2px solid;
+background-color: transparent;
+}
+.h1-edit{
+  box-shadow: 5px 5px 10px 5px;
+  border: 2px solid black;
+}
+button{
+box-shadow: 4px 2px 0px 1px;
+background-color: transparent;
+}
+select{
+border-color: black;
+border: 2px solid;
+background-color: transparent;
+}
+fieldset{
+  box-shadow: 5px 5px 10px 5px;
+  background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+  background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); 
+}

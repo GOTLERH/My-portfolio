@@ -1,0 +1,64 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+}
+body{
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+background: linear-gradient(to right, #2c3e50, #bdc3c7); 
+}
+header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.color-btn{
+    background-color: white;
+    cursor: pointer;
+}
+.whole_table{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+.table{
+    border: 1px solid black;
+    padding: 16px;
+    background-color: whitesmoke;
+}
+tr td{
+    border: 1px solid black;
+    padding: 16px;
+    background-color: wheat;
+}
+.table_title{
+    font-weight: bold;
+    font-size: large;
+}
+.boton_nuevo{
+    display: flex;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    color: whitesmoke;
+    padding: 8px;
+    justify-content: center;
+}
+.boton_editar{
+    background-color: rgb(83, 121, 224);
+    color: whitesmoke;
+    padding: 8px;
+}
+.boton_eliminar{
+    background-color: red;
+    color: whitesmoke;
+    padding: 8px;
+}
+.boton_editar:hover, .boton_eliminar:hover, .boton_nuevo:hover{
+ color: black;
+}
+a:link, a:visited {
+    text-decoration: none;
+  }
